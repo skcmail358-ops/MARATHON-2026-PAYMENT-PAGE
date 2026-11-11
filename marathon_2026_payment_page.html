@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>Marathon 2026 – Registration Payment</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; padding: 24px 16px;
+      display: grid; place-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #f9fafb;
+      background: linear-gradient(145deg, #111827, #1e3a5f);
+    }
+    main {
+      width: min(100%, 440px); padding: 30px 24px;
+      background: #ffffff; color: #111827; border-radius: 22px;
+      box-shadow: 0 18px 50px rgba(0,0,0,.25); text-align: center;
+    }
+    .tag { color: #2563eb; font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+    h1 { margin: 10px 0 6px; font-size: 30px; }
+    .college { margin: 0 0 24px; color: #4b5563; line-height: 1.5; font-size: 14px; }
+    .intro { margin: 0 0 18px; font-weight: 700; }
+    .pay {
+      display: block; margin: 12px 0; padding: 17px 16px;
+      border-radius: 13px; background: #16a34a; color: white;
+      text-decoration: none; font-size: 19px; font-weight: 700;
+    }
+    .pay small { display: block; margin-top: 4px; font-size: 12px; font-weight: 400; }
+    .upi { margin-top: 22px; padding: 13px; background: #f3f4f6; border-radius: 12px; }
+    .upi-label { color: #6b7280; font-size: 11px; font-weight: 700; letter-spacing: 1px; }
+    .upi-id { margin-top: 5px; font-weight: 700; overflow-wrap: anywhere; }
+    .note { margin: 18px 0 0; color: #6b7280; font-size: 12px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">SHRI KUMARAN COLLEGE OF ARTS AND SCIENCE</div>
+    <h1>MARATHON 2026</h1>
+    <p class="college">Registration Payment</p>
+    <p class="intro">Choose your registration category</p>
+
+    <a class="pay" href="upi://pay?pa=bhqr.2091961a%40sib&amp;pn=Shri%20Kumaran%20College&amp;am=100&amp;cu=INR&amp;tn=Marathon%202026%20Registration">
+      PAY ₹100
+      <small>School Boys / Girls</small>
+    </a>
+
+    <a class="pay" href="upi://pay?pa=bhqr.2091961a%40sib&amp;pn=Shri%20Kumaran%20College&amp;am=200&amp;cu=INR&amp;tn=Marathon%202026%20Registration">
+      PAY ₹200
+      <small>Men / Women</small>
+    </a>
+
+    <div class="upi">
+      <div class="upi-label">COLLEGE UPI ID</div>
+      <div class="upi-id">bhqr.2091961a@sib</div>
+    </div>
+    <p class="note">Tap the correct amount button. Your phone should show the UPI apps available on your device. Check the recipient and amount in your UPI app before approving payment. After paying, return to the registration form and upload your payment screenshot.</p>
+  </main>
+</body>
+</html>
